@@ -1,0 +1,32 @@
+---
+layout: page
+title: work
+---
+
+<section class="main-section">
+    <div class="container">
+        <div class="row">
+          <div class="grid" data-aos="fade-up">
+            {% for project in site.projects %}
+              <div class="grid-item col-sm-6 animation-element">
+                  <a href="{{ project.url }}">
+                     <div class="images">
+                        <img src="{{ project.images }}" />
+                        <div class="img-hover-effact"></div>
+
+
+                        <div class="img-hover-border">
+                          <div class="project-deatils"><p>{{ project.project_name }}<strong>{{ project.project_agency_name }}</strong></p></div>
+                          <div class="project-detail-containt">{{ project.project_details}}</div>
+
+
+                        </div>
+                      </div>
+                  </a>
+              </div>
+            {% endfor %}
+
+          </div>
+        </div>
+    </div>
+</section>

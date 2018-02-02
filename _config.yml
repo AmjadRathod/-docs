@@ -29,7 +29,15 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+collections:
+  projects:
+    output: true
+    layout: project_details
+    permalink: /project/:path/
+  blogs:
+    output: true
+    layout: blog_details
+    permalink: /blog/:path/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
