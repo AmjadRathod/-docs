@@ -1,6 +1,6 @@
 ---
 layout: project_details
-permalink: avana/Studio-thonix
+permalink: Studio-thonix
 title: Studio thonix
 images: "images/home-images/image-2.jpg"
 project_name: "Studio thonix"

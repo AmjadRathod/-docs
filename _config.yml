@@ -33,7 +33,7 @@ collections:
   projects:
     output: true
     layout: project_details
-  
+    permalink: /project/:path/
   blogs:
     output: true
     layout: blog_details
