@@ -1,7 +1,7 @@
 ---
 layout: project_details
-permalink: Studio thonix
-title: avana/Studio thonix
+permalink: Studio-thonix
+title: Studio thonix
 images: "images/home-images/image-4.jpg"
 project_name: "A Brand "
 project_agency_name: "new Agency"
